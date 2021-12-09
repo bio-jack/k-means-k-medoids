@@ -1,7 +1,5 @@
 =====================
 CLUSTERING ALGORITHMS
-
-COMP527 CA2
 =====================
 
 "ClusteringAlgorithms.py" contains main and help functions implementing the k-Means and k-Medoids 
@@ -13,27 +11,20 @@ the scripts to run and display the required results correctly.
 
 The ClusteringAlgorithms.py file implements:
 
-(1) a method for parsing the data file from text form into a suitable numpy array form
-
-			if normalise=True, all vectors in dataset are normalised to unit lengths
+(1) a method for parsing the data file from text form into a suitable numpy array form if normalise=True, all vectors in dataset are normalised to unit lengths
 
 (2) a method for implementing the k-Means clustering algorithm to produce k sets of clusters from given 
-    data
-			parameters k and r value may be chosen by the user in the scripts
+    data parameters k and r value may be chosen by the user in the scripts
 
 (3) a method for calculating the objective function for the k-Medoids algorithm
 		
 
 
-(4) a method for implementing the k-Medoids clustering algorithm to produce k sets of clusters from given 
-    data
-			parameters k and r value may be chosen by the user in the scripts
+(4) a method for implementing the k-Medoids clustering algorithm to produce k sets of clusters from given data parameters k and r value may be chosen by the user in the scripts
 
-(5) a method for implementing the B-CUBED algorithm to obtain average precision, accuracy, and f-scores
-    for the output of a given clustering algorithm
+(5) a method for implementing the B-CUBED algorithm to obtain average precision, accuracy, and f-scores for the output of a given clustering algorithm
 
-(6) a method for plotting the evaluation measures from (5) to visually evaluate the algorithm outputs and
-    for evaluating changes to user altered parameters
+(6) a method for plotting the evaluation measures from (5) to visually evaluate the algorithm outputs and for evaluating changes to user altered parameters
 
 
 NOTE: RUNNING SCRIPTS
