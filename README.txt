@@ -17,8 +17,6 @@ The ClusteringAlgorithms.py file implements:
     data parameters k and r value may be chosen by the user in the scripts
 
 (3) a method for calculating the objective function for the k-Medoids algorithm
-		
-
 
 (4) a method for implementing the k-Medoids clustering algorithm to produce k sets of clusters from given data parameters k and r value may be chosen by the user in the scripts
 
