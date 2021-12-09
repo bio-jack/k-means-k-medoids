@@ -1,7 +1,3 @@
-=====================
-CLUSTERING ALGORITHMS
-=====================
-
 "ClusteringAlgorithms.py" contains main and help functions implementing the k-Means and k-Medoids 
 clustering algorithms plus various examples of its implementation in scripts which generate the various 
 results required by the assignment.
