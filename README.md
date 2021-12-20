@@ -11,21 +11,16 @@ Evaluation is performed by the B-CUBED metric, which determines the precision, a
 
 The ```ClusteringAlgorithms.py``` file implements:
 
-(1) a method for parsing the data file from text form into a suitable numpy array. If ```normalise=True```, 
+* a method for parsing the data file from text form into a suitable numpy array. If ```normalise=True```, 
 all vectors in dataset are normalised to unit lengths.
-
-(2) a method for implementing the k-Means clustering algorithm to produce k sets of clusters from given 
+* a method for implementing the k-Means clustering algorithm to produce k sets of clusters from given 
 data parameters. k and r value may be chosen by the user in the scripts
-
-(3) a method for calculating the objective function for the k-Medoids algorithm
-
-(4) a method for implementing the k-Medoids clustering algorithm to produce k sets of clusters from given 
+* a method for calculating the objective function for the k-Medoids algorithm
+* a method for implementing the k-Medoids clustering algorithm to produce k sets of clusters from given 
 data parameters k and r value may be chosen by the user in the scripts
-
-(5) a method for implementing the B-CUBED algorithm to obtain average precision, accuracy, and f-scores for 
+* a method for implementing the B-CUBED algorithm to obtain average precision, accuracy, and f-scores for 
 the output of a given clustering algorithm
-
-(6) a method for plotting the evaluation measures from (5) to visually evaluate the algorithm outputs and 
+* a method for plotting the evaluation measures from (5) to visually evaluate the algorithm outputs and 
 for evaluating changes to user altered parameters
 
 
